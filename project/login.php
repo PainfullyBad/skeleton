@@ -8,10 +8,10 @@ session_destroy();
 
 //header("Location: index.php");
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Mainpage</title>
+    <title>Hoofd Pagina</title>
 </head>
 <body>
 <h1>hallo test</h1>
