@@ -1,4 +1,5 @@
 <?php
+session_start();
 echo("hallo");
 ?>
 <!DOCTYPE html>
