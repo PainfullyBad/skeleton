@@ -2,8 +2,6 @@ use <project>
 <index class="html"></index>
 
 <?php
-session_start();
-echo("hallo");
 ?>
 <!DOCTYPE html>
 
@@ -19,7 +17,7 @@ echo("hallo");
 
 <body>
 
-<h1>Hello, <?php echo $_SESSION['name']; ?></h1>
+<h1>Hello Onderzoeker</h1>
 
 <a href="logout.php">Logout</a>
 

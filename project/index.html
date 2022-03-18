@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="nl">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Inloggen</title>
-    <!DOCTYPE html>
 
     <title>LOGIN</title>
 
@@ -13,9 +12,9 @@
 
 <body>
 
-<form action="logout.php" method="post">
+<form action="login.php" method="post">
 
-    <h1>WELCOME</h1>
+    <h2>LOGIN</h2>
 
     <?php if (isset($_GET['error'])) { ?>
 
@@ -32,7 +31,7 @@
     <input type="password" name="password" placeholder="Password"><br>
 
     <button type="submit">Login</button>
-    </a>
+
 </form>
 
 </body>
