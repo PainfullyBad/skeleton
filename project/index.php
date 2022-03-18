@@ -1,6 +1,3 @@
-use <project>
-<index class="html"></index>
-
 <?php
 ?>
 <!DOCTYPE html>
