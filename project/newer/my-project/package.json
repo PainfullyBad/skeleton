@@ -1,0 +1,19 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.6.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.skb-enterprise.com/stagaires/cursustijmen.git"
+  },
+  "description": ""
+}
