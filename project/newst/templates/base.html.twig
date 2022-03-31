@@ -19,7 +19,7 @@
 
     {% block customstylesheets %}{% endblock %}
 
-    <title>{% block title %}Symfony 4 course app - video sharing service{% endblock %}</title>
+    <title>{% block title %}Welcome{% endblock %}</title>
 
 </head>
 
@@ -27,7 +27,9 @@
 <div class="container-fluid">
 {% block menu %}
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="index.php">Awesome Videos</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="index.php">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/CERN_logo.svg/1200px-CERN_logo.svg.png" width="50" height="50">
+            </a></h5>
 
         <form method="POST" class="form-inline my-0 mr-md-auto" action="{{ path('search_results') }}">
             <input class="form-control mr-sm-2" type="search" placeholder="video title" aria-label="Search video">
@@ -36,10 +38,10 @@
 
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="{{ path('video_list') }}">Funny</a>
-            <a class="p-2 text-dark" href="{{ path('video_list') }}">Scary</a>
-            <a class="p-2 text-dark" href="{{ path('video_list') }}">Unbelievable</a>
-            <a class="p-2 text-dark" href="{{ path('video_list') }}">Inspirational</a>
-            <a class="p-2 text-dark" href="{{ path('video_list') }}">Motivating</a>
+{#            <a class="p-2 text-dark" href="{{ path('video_list') }}">Scary</a>#}
+{#            <a class="p-2 text-dark" href="{{ path('video_list') }}">Unbelievable</a>#}
+{#            <a class="p-2 text-dark" href="{{ path('video_list') }}">Inspirational</a>#}
+{#            <a class="p-2 text-dark" href="{{ path('video_list') }}">Motivating</a>#}
             <a class="p-2 text-dark" href="{{ path('admin_main_page') }}">My account</a>
         </nav>
         <a class="btn btn-outline-primary mr-2" href="{{ path('pricing') }}">Sign up</a>
@@ -52,7 +54,7 @@
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
             <div class="col-12 col-md">
-                <small class="d-block mb-3 text-muted">&copy; 2021-2022</small>
+                &copy; <em id="date"></em>2022 - 2022
             </div>
             <div class="col-6 col-md">
                 <h5>Features</h5>
