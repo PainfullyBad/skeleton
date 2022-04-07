@@ -19,11 +19,11 @@ body {
 }
 /*custom*/
 .form-signin h1 {
-    color: #e18096;
+    color: #0074ff;
 }
 /*custom*/
 .form-signin label {
-    color: #e18096;
+    color: #0074ff;
 }
 .form-signin .checkbox {
   font-weight: 400;
@@ -42,11 +42,11 @@ body {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  border-color: #65be74; /*custom*/
+  border-color: #0074ff; /*custom*/
 }
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border-color: #65be74; /*custom*/
+  border-color: #0074ff; /*custom*/
 }
